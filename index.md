@@ -7,9 +7,9 @@ title: Hi, there
 
 My blog is about ...
 
-```ruby
+{% highlight ruby %}
 def greeting(name)
   puts "Hello, #{name}"
 end
 greeting "World"
-```
+{% endhighlight %}
