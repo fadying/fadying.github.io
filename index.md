@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Fadying's Blog
+title: Hi, there
 ---
 
-## {{ page.title }}
+### Hello
 
-最新文章
+My blog is about ...
 
-{% for post in site.posts %}
-- {{ post.date | date_to_string }}
-<a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
+```ruby
+def greeting(name)
+  puts "Hello, #{name}"
+end
+greeting "World"
+```
